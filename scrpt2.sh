@@ -1,3 +1,5 @@
-!/bin/bash
+#/bin/bash
 
-echo "this secodn dscript"
+echo "this second script"
+
+# I corrected the spelling of the words
