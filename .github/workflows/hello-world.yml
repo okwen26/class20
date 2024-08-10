@@ -1,5 +1,5 @@
 name: Hello world
-on: push
+on: push         
 jobs: 
   print-hello-world-job:
      runs-on: ubuntu-24.04
@@ -11,7 +11,7 @@ jobs:
         - name: count down 10 to 0
           run: 
             count=10
-             while [ $count -ge 0 ]; do
+            while [ $count -ge 0 ];do
              echo $count
              count=$((count -1))
              sleep 5
