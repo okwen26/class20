@@ -5,13 +5,13 @@ jobs:
      runs-on: ubuntu-24.04
      steps:
         - name : wait for 30 seconds
-          run: sleep 30
+          run: sleep 5
         - name: Print Hello World
           run: echo "Hello World"
         - name: count down 10 to 0
           run: 
             count=10
-             while [ $count -ge 0 ]; do
+            while [ $count -ge 0 ]; do
              echo $count
              count=$((count -1))
              sleep 5
